@@ -1,0 +1,12 @@
+export default function MarketNews() {
+  return (
+    <aside className="market-news">
+      <h3>MARKET NEWS</h3>
+      <ul>
+        <li>Global Stocks Edge Higher Ahead of US CPI Data</li>
+        <li>Euro Falls as ECB Signals Pause in Rate Hikes</li>
+        <li>Bitcoin Hits $60K Amid Renewed Investor Interest</li>
+      </ul>
+    </aside>
+  );
+}
