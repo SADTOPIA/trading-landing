@@ -1,0 +1,62 @@
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.title{
+    font-size: 70px;
+    color: #FFD700;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 170px;
+    color: white;
+    text-align: center;
+}
+
+.testimonial-img {
+    margin-bottom: 10px;
+}
+
+.rounded {
+    border-radius: 50%;
+    box-shadow: 0px -2px 33px -4px rgba(250,224,91,0.3);
+    -webkit-box-shadow: 0px -2px 33px -4px rgba(250,224,91,0.3);
+    -moz-box-shadow: 0px -2px 33px -4px rgba(250,224,91,0.3);
+}
+
+.card p {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family:"Century Gothic";
+    font-style: normal;
+    color: #FFD700;
+}
+
+.card strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 23px;
+    font-family:"Century Gothic";
+    font-style: normal;
+    color: #FFD700;
+}
+
+.card small {
+    margin: 0px;
+    font-size: 15px;
+    color: #FFD700;
+}

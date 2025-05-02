@@ -1,0 +1,45 @@
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.section h2 {
+    color: #FFD700;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #141009;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #facc15;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #CCCC99;
+    font-weight: normal;
+    line-height: 1.4;
+}

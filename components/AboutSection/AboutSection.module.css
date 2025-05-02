@@ -1,0 +1,29 @@
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    box-shadow: 0px 0px 100px 40px rgba(250, 224, 95, 0.19);
+}
+
+.title {
+    color: #facc15;
+    font-size: 70px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    font-size: 31px;
+    font-family: sans-serif;
+    color: #B9BBB6;
+    font-weight: normal;
+}

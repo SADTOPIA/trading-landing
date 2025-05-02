@@ -1,6 +1,8 @@
+import styles from "./MarketNews.module.css"
+
 export default function MarketNews() {
   return (
-    <aside className="market-news">
+    <aside className={styles["market-news"]}>
       <h3>MARKET NEWS</h3>
       <ul>
         <li>Global Stocks Edge Higher Ahead of US CPI Data</li>

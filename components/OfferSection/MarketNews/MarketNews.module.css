@@ -1,0 +1,26 @@
+.market-news {
+    max-width: 300px;
+    text-align: left;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 20px;
+}
+
+.market-news h3 {
+    color: #facc15;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.market-news ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.market-news li {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #B9BBB6;
+    margin-bottom: 6px;
+}

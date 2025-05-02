@@ -1,0 +1,36 @@
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    height: 480px;
+    background: url('/strategy-guide.png') no-repeat center center;
+    background-size: cover;
+}
+
+.content {
+    padding: 25px;
+    max-width: 40%;
+    text-align: left;
+    flex: 1;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #facc15;
+    color: #000;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 70px;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 27px;
+    color: #B9BBB6;
+    margin-bottom: 24px;
+}

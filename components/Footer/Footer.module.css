@@ -1,0 +1,13 @@
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer {
+    font-size: 12px;
+    color: #777777
+}
+
+.social-icons span {
+    margin: 0 10px;
+}

@@ -1,3 +1,5 @@
+import styles from './FeaturesSection.module.css';
+
 const features = [
   {
     icon: (
@@ -35,12 +37,12 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="section">
+    <section className={styles.section}>
       <h2>FEATURES</h2>
-      <div className="grid">
+      <div className={styles.grid}>
         {features.map((f, idx) => (
-          <div className="card" key={idx}>
-            <div className="icon">{f.icon}</div>
+          <div className={styles.card} key={idx}>
+            <div className={styles.icon}>{f.icon}</div>
             <h3>{f.title}</h3>
             <p>{f.text}</p>
           </div>
