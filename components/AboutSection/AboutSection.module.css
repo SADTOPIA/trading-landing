@@ -22,8 +22,14 @@
 }
 
 .paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
     font-size: 31px;
     font-family: sans-serif;
     color: #B9BBB6;
     font-weight: normal;
+    text-align: center;
 }
