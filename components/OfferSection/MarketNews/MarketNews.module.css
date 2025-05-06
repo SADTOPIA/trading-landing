@@ -9,10 +9,10 @@
     display: flex;
     align-items: center;
     color: #facc15;
-    margin-bottom: 10px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .market-news ul {
@@ -25,6 +25,7 @@
     font-size: 1em;
     font-family: sans-serif;
     color: #B9BBB6;
+    margin-top: 20px;
     margin-bottom: 6px;
 }
 
@@ -35,16 +36,17 @@
 
 .button {
     padding: 5px 10px;
-    background-color: #ffc300;
-    color: #fff;
+    margin-top: 5px;
+    background-color: #facc15;
+    color: #000;
     font-size: 1em;
     font-weight: bold;
     border: none;
-    border-radius: 20px;
+    border-radius: 7px;
     font-size: 18px;
     font-family: sans-serif;
 }
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     .market-news {
         max-width: 300px;
         text-align: left;

@@ -1,9 +1,11 @@
 .header {
+    margin-top: 60px;
     position: relative;
     height: 480px;
     background: url('/trading-man.png') no-repeat center center;
     background-size: cover;
     color: white;
+    box-sizing: border-box;
 }
 
 .content {
