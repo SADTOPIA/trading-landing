@@ -2,7 +2,7 @@ import styles from "./Footer.module.css"
 
 export default function Footer() {
   return (
-    <footer className={`${styles.section} ${styles.footer}`}>
+    <footer id="contactUs"  className={`${styles.section} ${styles.footer}`}>
       <p>© 2024 ELITE TRADING.</p>
       <p>ALLE RECHTE VORBEHALTEN.</p>
       <div className={styles["social-icons"]}>

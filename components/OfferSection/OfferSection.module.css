@@ -1,12 +1,16 @@
 .section {
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .highlight {
     font-size: 20px;
     color: #CCCC99;
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 .timer {
     color: #CCCC99;
@@ -21,13 +25,25 @@
     flex-direction: column;
     gap: 20px;
 }
+.frame{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin-top: 10px;
+}
 
-@media (min-width: 768px) {
+
+@media (min-width: 780px) {
     .offer-news {
         flex-direction: row;
+        align-items: flex-start;
     }
 
     .offer {
+        padding: 10px;
         width: 60%;
+    }
+    .frame{
+        max-width: none;
     }
 }

@@ -24,7 +24,7 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className={styles.section}>
+    <section id="ourChamps" className={styles.section}>
       <h2 className={styles.title}>HEAR FROM OUR CHAMPIONS</h2>
       <div className={styles.grid}>
         {testimonials.map((t, i) => (

@@ -37,7 +37,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className={styles.section}>
+    <section id="features" className={styles.section}>
       <h2>FEATURES</h2>
       <div className={styles.grid}>
         {features.map((f, idx) => (

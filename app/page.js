@@ -6,11 +6,13 @@ import AboutSection from "@/components/AboutSection/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import GiftSection from "@/components/GiftSection/GiftSection";
 import Footer from "@/components/Footer/Footer";
+import NavBar from "@/components/NavBar/NavBar";
 
 export default function HomePage() {
   return (
     <>
       <HeroSection />
+      <NavBar/>
       <OfferSection />
       <FeaturesSection />
       <GuideSection />

@@ -2,7 +2,7 @@ import styles from "./GuideSection.module.css";
 
 export default function GuideSection() {
   return (
-    <section className={styles.section}>
+    <section id="guide" className={styles.section}>
       <h2 className={styles.sectionTitle}>ONE-ON-ONE TRADING GUIDE</h2>
       <div className={styles.grid}>
         <div className={`${styles.card} ${styles.horizontal}`}>
