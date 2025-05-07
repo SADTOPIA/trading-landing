@@ -1,13 +1,26 @@
+'use client';
+
 import styles from './NavBar.module.css';
+import { useState } from "react";
 
 export default function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
           Elite Broker: Unleash Your Trading Power!
         </div>
-        <div className={styles.content}>
+        <button
+          className={styles.burger}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+        >
+          ☰
+        </button>
+        <div className={`${styles.content} ${menuOpen ? styles.show : ''}`}>
           <ul className={styles.menu}>
             <li><a href="#marketNews">Market News</a></li>
             <li><a href="#features">Features</a></li>

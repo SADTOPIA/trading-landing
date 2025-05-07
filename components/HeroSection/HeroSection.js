@@ -5,9 +5,7 @@ export default function HeroSection() {
     <header className={styles.header}>
       <div className={styles.content}>
         <h1 className={styles.heading}>
-          BEHERRSCHE DEN MARKT MIT
-          <br/>
-          ELITE-TRADING-POWER
+          BEHERRSCHE DEN MARKT MIT ELITE-TRADING-POWER
         </h1>
         <p className={styles.paragraph}>
           Entfessele dein Potenzial mit unseren unvergleichlichen Tools und Expertenrat

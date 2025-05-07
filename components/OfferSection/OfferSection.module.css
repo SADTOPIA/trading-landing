@@ -33,7 +33,7 @@
 }
 
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
     .offer-news {
         flex-direction: row;
         align-items: flex-start;
@@ -43,6 +43,24 @@
         padding: 10px;
         width: 60%;
     }
+    .frame{
+        max-width: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .offer {
+        padding: 10px;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .offer-news {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .frame{
         max-width: none;
     }

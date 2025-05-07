@@ -43,3 +43,37 @@
     font-weight: normal;
     line-height: 1.4;
 }
+@media (max-width: 768px) {
+    .section h2 {
+        color: #FFD700;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: normal;
+    }
+    .card h3 {
+        margin: 10px 0 5px;
+        color: #facc15;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #CCCC99;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 700px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+}
