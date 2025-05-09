@@ -4,7 +4,7 @@
 }
 
 .title{
-    font-size: 60px;
+    font-size: 2.5em;
     color: #FFD700;
     font-weight: normal;
     font-family: sans-serif;
@@ -40,8 +40,8 @@
 .card p {
     display: block;
     margin: 10px 0;
-    font-size: 16px;
-    font-family:"Century Gothic";
+    font-size: 1em;
+    font-family:"Roboto";
     font-style: normal;
     color: #FFD700;
 }
@@ -49,23 +49,48 @@
 .card strong {
     display: block;
     margin-top: 10px;
-    font-size: 23px;
-    font-family:"Century Gothic";
-    font-style: normal;
+    font-size: 0.9em;
+    font-family:"Roboto";
+    font-weight: bold;
     color: #FFD700;
 }
 
 .card small {
     margin: 0px;
-    font-size: 15px;
+    font-size: 0.8em;
+    font-family:"Roboto";
     color: #FFD700;
 }
 
 @media (max-width: 768px) {
     .title{
-        font-size: 50px;
+        font-size: 2.5em;
         color: #FFD700;
         font-weight: normal;
         font-family: sans-serif;
+    }
+    .card p {
+        display: block;
+        margin: 10px 0;
+        font-size: 1em;
+        font-family:"Roboto";
+        font-style: normal;
+        color: #FFD700;
+    }
+
+    .card strong {
+        display: block;
+        margin-top: 10px;
+        font-size: 0.9em;
+        font-family:"Roboto";
+        font-weight: bold;
+        color: #FFD700;
+    }
+
+    .card small {
+        margin: 0px;
+        font-size: 0.8em;
+        font-family:"Roboto";
+        color: #FFD700;
     }
 }

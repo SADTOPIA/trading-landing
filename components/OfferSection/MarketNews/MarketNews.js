@@ -8,17 +8,17 @@ export default function MarketNews() {
         <li>
           Global Stocks Edge Higher Ahead of US CPI Data
         <p>16 HUR AGO</p>
-          <button className={styles.button}>Get the Scoop</button>
+          <a href="#elite" className={styles.button}>Get the Scoop</a>
         </li>
         <li>
           Euro Falls as ECB Signals Pause in Rate Hikes
           <p>16 HUR AGO</p>
-          <button className={styles.button}>Dive In</button>
+          <a href="#elite" className={styles.button}>Dive In</a>
         </li>
         <li>
           Bitcoin Hits $60K Amid Renewed Investor Interest
           <p>16 HUR AGO</p>
-          <button className={styles.button}>Learn the Secrets</button>
+          <a href="#elite" className={styles.button}>Learn the Secrets</a>
         </li>
       </ul>
     </aside>

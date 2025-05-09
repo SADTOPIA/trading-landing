@@ -1,7 +1,7 @@
 .market-news {
     max-width: 300px;
     text-align: left;
-    padding-left: 20px;
+    padding: 10px;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     margin: 0 auto;
 }
@@ -10,10 +10,10 @@
     display: flex;
     align-items: center;
     color: #facc15;
-    font-size: 25px;
+    font-size: 2.5em;
     font-family: sans-serif;
-    font-weight: bold;
-    margin-bottom: 0px;
+    font-weight: normal;
+    margin: 0px;
 }
 
 .market-news ul {
@@ -23,7 +23,7 @@
 }
 
 .market-news li {
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: sans-serif;
     color: #B9BBB6;
     margin-top: 20px;
@@ -36,17 +36,22 @@
 }
 
 .button {
+    display: inline-block;
     padding: 5px 10px;
     margin-top: 5px;
     background-color: #facc15;
     color: #000;
-    font-size: 1em;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 7px;
-    font-size: 18px;
     font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
+
 @media (max-width: 768px) {
     .market-news {
         max-width: 300px;
@@ -59,10 +64,35 @@
         align-items: center;
         justify-content: center;
         color: #facc15;
-        font-size: 25px;
+        font-size: 2.5em;
         font-family: sans-serif;
-        font-weight: bold;
+        font-weight: normal;
         margin-bottom: 0px;
+    }
+
+    .market-news li {
+        font-size: 1.2em;
+        font-family: sans-serif;
+        color: #B9BBB6;
+        margin-top: 20px;
+        margin-bottom: 6px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-top: 5px;
+        background-color: #facc15;
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 7px;
+        font-family: sans-serif;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
     }
 }
 
@@ -78,10 +108,39 @@
         align-items: center;
         justify-content: center;
         color: #facc15;
-        font-size: 25px;
+        font-size: 2.5em;
         font-family: sans-serif;
         font-weight: bold;
         margin-bottom: 0px;
+    }
+
+    .market-news li {
+        font-size: 1.2em;
+        font-family: sans-serif;
+        color: #B9BBB6;
+        margin-top: 20px;
+        margin-bottom: 6px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-top: 5px;
+        background-color: #facc15;
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 7px;
+        font-family: sans-serif;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .button:hover {
+        background-color: #eab308;
     }
 }
 

@@ -7,14 +7,14 @@
 }
 
 .highlight {
-    font-size: 20px;
+    font-size: 1.3em;
     color: #CCCC99;
     text-transform: uppercase;
     margin: 0px;
 }
 .timer {
     color: #CCCC99;
-    font-size: 28px;
+    font-size: 1.8em;
     font-family: sans-serif;
     font-weight: bold;
     margin: 0px;

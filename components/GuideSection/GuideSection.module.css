@@ -7,7 +7,7 @@
 
 .sectionTitle {
     color: #facc15;
-    font-size: 70px;
+    font-size: 2.5em;
     margin-bottom: 40px;
     font-weight: normal;
 }
@@ -23,7 +23,7 @@
     padding: 20px;
     width: 200px;
     color: #facc15;
-    font-size: 18px;
+    font-size: 1.17em;
     text-align: center;
 }
 .card:first-child {
@@ -45,7 +45,7 @@
     padding: 0;
     display: flex;
     justify-content: start;
-    font-size: 26px;
+    font-size: 1.17em;
     font-family: sans-serif;
     font-weight: normal;
     line-height: 1.2;
@@ -76,7 +76,7 @@
     }
     .sectionTitle {
         color: #facc15;
-        font-size: 50px;
+        font-size: 2.5em;
         margin-bottom: 40px;
         font-weight: normal;
     }
@@ -85,7 +85,7 @@
         padding: 20px;
         width: 200px;
         color: #facc15;
-        font-size: 18px;
+        font-size: 1.17em;
         text-align: center;
         justify-content: center;
     }
@@ -95,7 +95,7 @@
         padding: 0;
         display: flex;
         justify-content: center;
-        font-size: 22px;
+        font-size: 1.17em;
         font-family: sans-serif;
         font-weight: normal;
         line-height: 1.2;
@@ -142,7 +142,7 @@
         padding: 20px;
         width: 200px;
         color: #facc15;
-        font-size: 18px;
+        font-size: 1.17em;
         text-align: center;
         justify-content: center;
     }
@@ -152,7 +152,7 @@
         padding: 0;
         display: flex;
         justify-content: center;
-        font-size: 22px;
+        font-size: 1.17em;
         font-family: sans-serif;
         font-weight: normal;
         line-height: 1.2;

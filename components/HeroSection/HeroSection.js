@@ -1,8 +1,8 @@
 import styles from './HeroSection.module.css';
 
-export default function HeroSection() {
+export default function HeroSection({ onStartClick }) {
   return (
-    <header className={styles.header}>
+    <header id="elite" className={styles.header}>
       <div className={styles.content}>
         <h1 className={styles.heading}>
           BEHERRSCHE DEN MARKT MIT ELITE-TRADING-POWER
@@ -10,7 +10,9 @@ export default function HeroSection() {
         <p className={styles.paragraph}>
           Entfessele dein Potenzial mit unseren unvergleichlichen Tools und Expertenrat
         </p>
-        <button className={styles.button}>JETZT STARTEN</button>
+        <button className={styles.button} onClick={onStartClick}>
+          JETZT STARTEN
+        </button>
       </div>
     </header>
   );

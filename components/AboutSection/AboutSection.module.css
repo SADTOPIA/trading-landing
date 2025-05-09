@@ -16,7 +16,7 @@
 
 .title {
     color: #facc15;
-    font-size: 70px;
+    font-size: 2.5em;
     font-weight: normal;
     margin-bottom: 40px;
 }
@@ -27,7 +27,7 @@
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
-    font-size: 31px;
+    font-size: 1.1em;
     font-family: sans-serif;
     color: #B9BBB6;
     font-weight: normal;
@@ -40,7 +40,7 @@
     color: #000;
     border: none;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 1em;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@
 @media (max-width: 768px) {
     .title {
         color: #facc15;
-        font-size: 50px;
+        font-size: 2.5em;
         font-weight: normal;
         margin-bottom: 40px;
     }
@@ -59,10 +59,22 @@
         align-items: center;
         max-width: 800px;
         margin: 0 auto;
-        font-size: 22px;
+        font-size: 1.1em;
         font-family: sans-serif;
         color: #B9BBB6;
         font-weight: normal;
         text-align: center;
+    }
+
+    .button {
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #facc15;
+        color: #000;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        font-family: sans-serif;
+        font-weight: bold;
     }
 }
