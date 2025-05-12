@@ -18,38 +18,41 @@ export default function HomePage() {
   const [showForm, setShowForm] = useState(false);
   const adTimerRef = useRef(null);
 
-  useEffect(() => {
+  const startAdTimer = () => {
+    if (adTimerRef.current !== null) return;
+
     adTimerRef.current = setTimeout(() => {
+      adTimerRef.current = null;
       setShowAd(true);
-    }, 10000);
+    }, 5000);
+  };
+
+  const cancelAdTimer = () => {
+    clearTimeout(adTimerRef.current);
+    adTimerRef.current = null;
+  };
+
+  useEffect(() => {
+    startAdTimer();
 
     return () => {
-      if (adTimerRef.current) {
-        clearTimeout(adTimerRef.current);
-      }
+      cancelAdTimer();
     };
   }, []);
 
-  const cancelAdTimer = () => {
-    if (adTimerRef.current) {
-      clearTimeout(adTimerRef.current);
-      adTimerRef.current = null;
-    }
-  };
-
   const handleAdClose = () => {
-    cancelAdTimer();
     setShowAd(false);
+    startAdTimer();
   };
 
   const handleClaimClick = () => {
-    cancelAdTimer();
     setShowAd(false);
     setShowForm(true);
   };
 
   const handleFormClose = () => {
     setShowForm(false);
+    startAdTimer();
   };
 
   return (
@@ -61,7 +64,7 @@ export default function HomePage() {
       <GuideSection />
       <AboutSection onStartClick={() => setShowForm(true)} />
       <TestimonialsSection />
-      <GiftSection onStartClick={() => setShowForm(true)}/>
+      <GiftSection onStartClick={() => setShowForm(true)} />
       <Footer />
 
       <AdModal isOpen={showAd} onClose={handleAdClose} onClaim={handleClaimClick} />

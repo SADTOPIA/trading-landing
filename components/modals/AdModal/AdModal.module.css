@@ -12,7 +12,7 @@
 }
 
 .modal {
-    background: #0d0c04;
+    background: white;
     border-radius: 12px;
     padding: 24px;
     width: 320px;
@@ -23,14 +23,14 @@
 
 .title {
     font-size: 1.3em;
-    color: #FFD700;
+    color: #000;
     font-weight: bold;
     margin-bottom: 12px;
 }
 
 .text {
     font-size: 0.9em;
-    color: #B9BBB6;
+    color: #000;
 }
 
 .highlight {

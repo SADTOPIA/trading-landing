@@ -1,8 +1,8 @@
 .header {
     padding-top: 60px;
     position: relative;
-    height: 580px;
-    background: url('/trading-man.png') no-repeat center center;
+    height: 680px;
+    background: url('/broker.jpg') no-repeat;
     background-size: cover;
     color: white;
     box-sizing: border-box;
