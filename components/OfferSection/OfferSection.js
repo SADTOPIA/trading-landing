@@ -1,14 +1,31 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import MarketNews from "./MarketNews/MarketNews";
 import styles from "./OfferSection.module.css";
 
 export default function OfferSection() {
+  const { t, i18n } = useTranslation();
+  const [isReady, setIsReady] = useState(false);
   const [timeLeft, setTimeLeft] = useState(30 * 60);
   const [expired, setExpired] = useState(false);
 
+  // Проверка и установка готовности i18n
   useEffect(() => {
+    if (i18n.isInitialized) {
+      setIsReady(true);
+    } else {
+      const onInit = () => setIsReady(true);
+      i18n.on('initialized', onInit);
+      return () => i18n.off('initialized', onInit);
+    }
+  }, [i18n]);
+
+  // Таймер для обратного отсчёта
+  useEffect(() => {
+    if (!isReady) return; // не запускаем таймер пока i18n не инициализирован
+
     if (timeLeft <= 0) {
       setExpired(true);
       return;
@@ -19,7 +36,7 @@ export default function OfferSection() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft]);
+  }, [timeLeft, isReady]);
 
   const formatTime = (seconds) => {
     const mins = String(Math.floor(seconds / 60)).padStart(2, '0');
@@ -27,13 +44,15 @@ export default function OfferSection() {
     return `${mins}:${secs}`;
   };
 
+  if (!isReady) return null; // пока i18n не готов — не рендерим
+
   return (
     <section id="marketNews" className={`${styles.section} ${styles["offer-news"]}`}>
       <div className={styles.offer}>
-        <p className={styles.highlight}>⚡ Limited-Time Power Offer:</p>
-        <h2 className={styles.highlight}>MACGU-IN IN 24 EASY ENDS IN</h2>
+        <p className={styles.highlight}>⚡ {t("offer.highlight")}</p>
+        <h2 className={styles.highlight}>{t("offer.title")}</h2>
         <p className={styles.timer}>
-          {expired ? "Offer expired" : formatTime(timeLeft)}
+          {expired ? t("offer.expired") : formatTime(timeLeft)}
         </p>
         <div></div>
         <iframe

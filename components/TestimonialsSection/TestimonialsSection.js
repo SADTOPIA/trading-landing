@@ -1,35 +1,54 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './TestimonialsSection.module.css';
-
-const testimonials = [
-  {
-    img: "/photo_2021-07-27_14-57-11.jpg",
-    quote: "The advanced tools transformed my trading. Highly recommended.",
-    name: "Olivia M.",
-    role: "Professional Trader",
-  },
-  {
-    img: "/photo_2021-07-27_14-57-11.jpg",
-    quote: "Outstanding expert guidance tailored to my needs. A game-changer!",
-    name: "David R.",
-    role: "Individual Investor",
-  },
-  {
-    img: "/photo_2021-07-27_14-57-11.jpg",
-    quote: "The community support is unparalleled. I feel empowered!",
-    name: "Julia S.",
-    role: "Trading Enthusiast",
-  },
-];
+import { useTranslation } from 'react-i18next';
+import {useEffect, useState} from "react";
 
 export default function TestimonialsSection() {
+  const { t, i18n } = useTranslation();
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    if (i18n.isInitialized) {
+      setIsReady(true);
+    } else {
+      i18n.on('initialized', () => {
+        setIsReady(true);
+      });
+    }
+  }, [i18n]);
+
+  if (!isReady) return null;
+
+  const testimonials = [
+    {
+      img: '/photo_2021-07-27_14-57-11.jpg',
+      quote: t('testimonials.0.quote'),
+      name: t('testimonials.0.name'),
+      role: t('testimonials.0.role'),
+    },
+    {
+      img: '/photo_2021-07-27_14-57-11.jpg',
+      quote: t('testimonials.1.quote'),
+      name: t('testimonials.1.name'),
+      role: t('testimonials.1.role'),
+    },
+    {
+      img: '/photo_2021-07-27_14-57-11.jpg',
+      quote: t('testimonials.2.quote'),
+      name: t('testimonials.2.name'),
+      role: t('testimonials.2.role'),
+    },
+  ];
+
   return (
     <section id="ourChamps" className={styles.section}>
-      <h2 className={styles.title}>HEAR FROM OUR CHAMPIONS</h2>
+      <h2 className={styles.title}>{t('testimonials.title')}</h2>
       <div className={styles.grid}>
         {testimonials.map((t, i) => (
           <div className={styles.card} key={i}>
-            <div className={styles["testimonial-img"]}>
+            <div className={styles['testimonial-img']}>
               <Image
                 src={t.img}
                 alt={t.name}
@@ -39,7 +58,10 @@ export default function TestimonialsSection() {
               />
             </div>
             <p>"{t.quote}"</p>
-            <p><strong>{t.name}</strong><small>{t.role}</small></p>
+            <p>
+              <strong>{t.name}</strong>
+              <small>{t.role}</small>
+            </p>
           </div>
         ))}
       </div>

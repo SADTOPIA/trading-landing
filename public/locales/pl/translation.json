@@ -1,5 +1,137 @@
 {
-  "heroTitle": "OPANUJ RYNEK Z MOCĄ ELITARNEGO TRADINGU",
-  "heroParagraph1": "Uwolnij swój potencjał dzięki niezrównanym narzędziom i poradom ekspertów",
-  "heroButton": "ZACZNIJ TERAZ"
+  "heroTitle": "OPANUJ RYNEK Z ELITARNĄ SIŁĄ HANDLOWĄ",
+  "heroParagraph1": "Uwolnij swój potencjał dzięki naszym niezrównanym narzędziom i ekspertom.",
+  "heroParagraph2": "Dołącz do tysięcy udanych traderów korzystających już z naszej platformy.",
+  "heroButton": "ROZPOCZNIJ TERAZ",
+
+  "aboutTitle": "O NAS",
+  "aboutParagraph1": "Jesteśmy platformą łączącą profesjonalne narzędzia handlowe z wiedzą ekspertów, aby dać Ci przewagę na rynku.",
+  "aboutParagraph2": "Nasza innowacyjna platforma została zaprojektowana, aby zapewnić potężne narzędzia zarówno doświadczonym traderom, jak i początkującym.",
+  "aboutButton": "Otwórz swoje zwycięskie konto",
+
+  "featuresTitle": "CECHY",
+  "features": {
+    "analyse": {
+      "title": "ANALIZA",
+      "text": "Korzystaj z zaawansowanych analiz, by podejmować mądrzejsze decyzje handlowe."
+    },
+    "security": {
+      "title": "BEZPIECZEŃSTWO",
+      "text": "Polegaj na najnowocześniejszych protokołach bezpieczeństwa."
+    },
+    "support": {
+      "title": "WSPARCIE",
+      "text": "Kontaktuj się z nami 24/7 po fachową pomoc."
+    },
+    "community": {
+      "title": "SPOŁECZNOŚĆ",
+      "text": "Dołącz do społeczności traderów."
+    }
+  },
+
+  "guide": {
+    "title": "INDYWIDUALNY PRZEWODNIK PO HANDLU",
+    "card1": {
+      "line1": "Zarezerwuj.",
+      "line2": "Darmową",
+      "line3": "Sesję."
+    },
+    "card2": {
+      "line1": "Spersonalizowana",
+      "line2": "Konsultacja."
+    },
+    "card3": {
+      "line1": "Opracuj",
+      "line2": "Darmową",
+      "line3": "Strategię."
+    },
+    "card4": {
+      "line1": "Wdrażaj i",
+      "line2": "Osiągaj sukcesy."
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2024 ELITE TRADING.",
+    "rights": "WSZELKIE PRAWA ZASTRZEŻONE."
+  },
+
+  "giftSection": {
+    "title": "SPECJALNY PREZENT",
+    "paragraph": "Zamów swój darmowy przewodnik po strategiach tradingowych!",
+    "button": "POBIERZ TERAZ"
+  },
+
+  "modal": {
+    "title": "Poczekaj – Nie przegap tej okazji!",
+    "text": "Działaj teraz, aby odebrać swój ekskluzywny <strong>100% bonus</strong> i uwolnić swój potencjał handlowy.",
+    "cta": "Odbierz bonus"
+  },
+
+  "formModal": {
+    "title": "Dołącz do elity – Otwórz swoje konto już teraz",
+    "subtitle": "Wprowadź swoje dane i zrób pierwszy krok do dominacji na rynku.",
+    "name": "Twoje imię",
+    "email": "Twój email",
+    "phone": "Twój numer telefonu",
+    "country": "Twój kraj",
+    "submit": "Wyślij i Dominuj"
+  },
+
+  "nav": {
+    "logo": "Elite Broker: Uwolnij swoją siłę handlu!",
+    "toggleMenu": "Przełącz menu",
+    "marketNews": "Wiadomości rynkowe",
+    "features": "Funkcje",
+    "guide": "Indywidualny Przewodnik Tradingowy",
+    "aboutUs": "O nas",
+    "ourChamps": "Historie sukcesu",
+    "gift": "Specjalny Prezent",
+    "contactUs": "Skontaktuj się z nami"
+  },
+
+  "marketNews": {
+    "title": "WIADOMOŚCI RYNKOWE",
+    "item1": {
+      "headline": "Globalne akcje rosną przed danymi CPI z USA",
+      "time": "16 GODZIN TEMU",
+      "button": "Zobacz szczegóły"
+    },
+    "item2": {
+      "headline": "Euro spada – EBC sygnalizuje przerwę w podwyżkach",
+      "time": "16 GODZIN TEMU",
+      "button": "Czytaj dalej"
+    },
+    "item3": {
+      "headline": "Bitcoin osiąga 60 tys. USD przy wzroście zainteresowania",
+      "time": "16 GODZIN TEMU",
+      "button": "Poznaj sekrety"
+    }
+  },
+
+  "offer": {
+    "highlight": "Limitowana oferta specjalna:",
+    "title": "MACGU-IN W 24 ŁATWYCH KROKACH KOŃCZY SIĘ ZA",
+    "expired": "Oferta wygasła"
+  },
+
+  "testimonials": {
+    "title": "POSŁUCHAJ NASZYCH MISTRZÓW",
+    "0": {
+      "quote": "Zaawansowane narzędzia zmieniły moje podejście do handlu. Gorąco polecam.",
+      "name": "Olivia M.",
+      "role": "Zawodowy Trader"
+    },
+    "1": {
+      "quote": "Doskonałe doradztwo ekspertów dostosowane do moich potrzeb. To przełom!",
+      "name": "David R.",
+      "role": "Inwestor Indywidualny"
+    },
+    "2": {
+      "quote": "Wsparcie społeczności jest niezrównane. Czuję się wzmocniona!",
+      "name": "Julia S.",
+      "role": "Entuzjastka Handlu"
+    }
+  }
+
 }

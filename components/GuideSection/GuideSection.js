@@ -1,9 +1,26 @@
 import styles from "./GuideSection.module.css";
+import {useTranslation} from "react-i18next";
+import {useEffect, useState} from "react";
 
 export default function GuideSection() {
+  const { t, i18n } = useTranslation();
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    if (i18n.isInitialized) {
+      setIsReady(true);
+    } else {
+      i18n.on('initialized', () => {
+        setIsReady(true);
+      });
+    }
+  }, [i18n]);
+
+  if (!isReady) return null;
+
   return (
     <section id="guide" className={styles.section}>
-      <h2 className={styles.sectionTitle}>ONE-ON-ONE TRADING GUIDE</h2>
+      <h2 className={styles.sectionTitle}>{t('guide.title')}</h2>
       <div className={styles.grid}>
         <div className={`${styles.card} ${styles.horizontal}`}>
           <span className={`${styles.icon} ${styles.first}`}>
@@ -13,9 +30,9 @@ export default function GuideSection() {
             </svg>
           </span>
           <div>
-            <p>Book</p>
-            <p>Free</p>
-            <p>Session</p>
+            <p>{t('guide.card1.line1')}</p>
+            <p>{t('guide.card1.line2')}</p>
+            <p>{t('guide.card1.line3')}</p>
           </div>
         </div>
 
@@ -27,8 +44,8 @@ export default function GuideSection() {
               </svg>
           </span>
           <div>
-            <p>Personalized</p>
-            <p>Consultation</p>
+            <p>{t('guide.card2.line1')}</p>
+            <p>{t('guide.card2.line2')}</p>
            </div>
         </div>
 
@@ -40,9 +57,9 @@ export default function GuideSection() {
             </svg>
           </span>
           <div>
-            <p>Develop</p>
-            <p>Free</p>
-            <p>Strategy</p>
+            <p>{t('guide.card3.line1')}</p>
+            <p>{t('guide.card3.line2')}</p>
+            <p>{t('guide.card3.line3')}</p>
           </div>
         </div>
 
@@ -54,8 +71,8 @@ export default function GuideSection() {
               </svg>
           </span>
           <div>
-            <p>Execute and</p>
-            <p>Succeed</p>
+            <p>{t('guide.card4.line1')}</p>
+            <p>{t('guide.card4.line2')}</p>
           </div>
         </div>
       </div>

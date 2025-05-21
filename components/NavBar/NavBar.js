@@ -1,13 +1,26 @@
 'use client';
 
 import styles from './NavBar.module.css';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
 
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { i18n } = useTranslation();
+  const [isReady, setIsReady] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    if (i18n.isInitialized) {
+      setIsReady(true);
+    } else {
+      i18n.on('initialized', () => {
+        setIsReady(true);
+      });
+    }
+  }, [i18n]);
+
+  if (!isReady) return null;
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -17,7 +30,7 @@ export default function NavBar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          Elite Broker: Unleash Your Trading Power!
+          {t('nav.logo')}
         </div>
         <button
           className={styles.burger}
@@ -29,13 +42,13 @@ export default function NavBar() {
         </button>
         <div className={`${styles.content} ${menuOpen ? styles.show : ''}`}>
           <ul className={styles.menu}>
-            <li><a href="#marketNews">Market News</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#guide">One-On-One Trading Guide</a></li>
-            <li><a href="#aboutUs">About Us</a></li>
-            <li><a href="#ourChamps">Hear From Our Champs</a></li>
-            <li><a href="#gift">Special Gift</a></li>
-            <li><a href="#contactUs">Contact Us</a></li>
+            <li><a href="#marketNews">{t('nav.marketNews')}</a></li>
+            <li><a href="#features">{t('nav.features')}</a></li>
+            <li><a href="#guide">{t('nav.guide')}</a></li>
+            <li><a href="#aboutUs">{t('nav.aboutUs')}</a></li>
+            <li><a href="#ourChamps">{t('nav.ourChamps')}</a></li>
+            <li><a href="#gift">{t('nav.gift')}</a></li>
+            <li><a href="#contactUs">{t('nav.contactUs')}</a></li>
           </ul>
 
           <div className={styles.languages}>

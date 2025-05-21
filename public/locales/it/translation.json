@@ -1,5 +1,137 @@
 {
-  "heroTitle": "DOMINA IL MERCATO CON LA POTENZA DEL TRADING D'ÉLITE",
-  "heroParagraph1": "Libera il tuo potenziale con strumenti impareggiabili e consigli di esperti",
-  "heroButton": "INIZIA ORA"
+  "heroTitle": "DOMINA IL MERCATO CON IL POTERE DI TRADING ELITE",
+  "heroParagraph1": "Scatena il tuo potenziale con i nostri strumenti senza pari e consigli esperti.",
+  "heroParagraph2": "Unisciti a migliaia di trader di successo che utilizzano già la nostra piattaforma.",
+  "heroButton": "INIZIA ORA",
+
+  "aboutTitle": "CHI SIAMO",
+  "aboutParagraph1": "Siamo una piattaforma che combina strumenti di trading professionali con conoscenze esperte per darti un vantaggio sul mercato.",
+  "aboutParagraph2": "La nostra piattaforma innovativa è progettata per offrire potenti strumenti sia ai trader esperti che ai principianti.",
+  "aboutButton": "Apri il tuo conto vincente",
+
+  "featuresTitle": "CARATTERISTICHE",
+  "features": {
+    "analyse": {
+      "title": "ANALIZZA",
+      "text": "Usa analisi avanzate per decisioni di trading più intelligenti."
+    },
+    "security": {
+      "title": "SICUREZZA",
+      "text": "Affidati a protocolli di sicurezza all'avanguardia."
+    },
+    "support": {
+      "title": "SUPPORTO",
+      "text": "Contattaci 24/7 per assistenza esperta."
+    },
+    "community": {
+      "title": "COMUNITÀ",
+      "text": "Unisciti a una comunità di trader."
+    }
+  },
+
+  "guide": {
+    "title": "GUIDA AL TRADING ONE-TO-ONE",
+    "card1": {
+      "line1": "Prenota.",
+      "line2": "Sessione",
+      "line3": "Gratuita."
+    },
+    "card2": {
+      "line1": "Consulenza",
+      "line2": "Personalizzata."
+    },
+    "card3": {
+      "line1": "Sviluppa",
+      "line2": "Strategia",
+      "line3": "Gratuita."
+    },
+    "card4": {
+      "line1": "Esegui e",
+      "line2": "Riesci."
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2024 ELITE TRADING.",
+    "rights": "TUTTI I DIRITTI RISERVATI."
+  },
+
+  "giftSection": {
+    "title": "REGALO SPECIALE",
+    "paragraph": "Richiedi la tua guida gratuita alla strategia di trading!",
+    "button": "SCARICA ORA"
+  },
+
+  "modal": {
+    "title": "Aspetta – Non perdere questa opportunità!",
+    "text": "Agisci ora per ottenere il tuo esclusivo <strong>bonus del 100%</strong> e liberare il tuo potenziale di trading.",
+    "cta": "Richiedi il tuo bonus"
+  },
+
+  "formModal": {
+    "title": "Unisciti all’élite – Apri il tuo conto ora",
+    "subtitle": "Inserisci i tuoi dati e fai il primo passo verso il dominio del mercato.",
+    "name": "Il tuo nome",
+    "email": "La tua email",
+    "phone": "Il tuo numero di telefono",
+    "country": "Il tuo paese",
+    "submit": "Invia e Domina"
+  },
+
+  "nav": {
+    "logo": "Elite Broker: Libera la tua potenza di trading!",
+    "toggleMenu": "Mostra/Nascondi menu",
+    "marketNews": "Notizie di mercato",
+    "features": "Funzionalità",
+    "guide": "Guida al Trading Personalizzata",
+    "aboutUs": "Chi siamo",
+    "ourChamps": "Testimonianze",
+    "gift": "Regalo Speciale",
+    "contactUs": "Contattaci"
+  },
+
+  "marketNews": {
+    "title": "NOTIZIE DI MERCATO",
+    "item1": {
+      "headline": "Azioni globali in rialzo prima dei dati sull’inflazione USA",
+      "time": "16 ORE FA",
+      "button": "Scopri di più"
+    },
+    "item2": {
+      "headline": "Euro in calo mentre la BCE segnala una pausa nei rialzi",
+      "time": "16 ORE FA",
+      "button": "Approfondisci"
+    },
+    "item3": {
+      "headline": "Bitcoin supera i 60K$ con rinnovato interesse",
+      "time": "16 ORE FA",
+      "button": "Scopri i segreti"
+    }
+  },
+
+  "offer": {
+    "highlight": "Offerta potente a tempo limitato:",
+    "title": "MACGU-IN IN 24 FACILI PASSAGGI TERMINA IN",
+    "expired": "Offerta scaduta"
+  },
+
+  "testimonials": {
+    "title": "ASCOLTA I NOSTRI CAMPIONI",
+    "0": {
+      "quote": "Gli strumenti avanzati hanno trasformato il mio trading. Altamente consigliato.",
+      "name": "Olivia M.",
+      "role": "Trader Professionista"
+    },
+    "1": {
+      "quote": "Consulenza esperta eccezionale su misura per le mie esigenze. Una svolta!",
+      "name": "David R.",
+      "role": "Investitore Privato"
+    },
+    "2": {
+      "quote": "Il supporto della community è impareggiabile. Mi sento potenziato!",
+      "name": "Julia S.",
+      "role": "Appassionata di Trading"
+    }
+  }
+
 }

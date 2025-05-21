@@ -1,5 +1,137 @@
 {
-  "heroTitle": "BEHERRSCHE DEN MARKT MIT ELITE-TRADING-POWER",
-  "heroParagraph1": "Entfessele dein Potenzial mit unseren unvergleichlichen Tools und Expertenrat",
-  "heroButton": "JETZT STARTEN"
+  "heroTitle": "MEISTERE DEN MARKT MIT ELITÄRER HANDELSKRAFT",
+  "heroParagraph1": "Entfessle dein Potenzial mit unseren unvergleichlichen Werkzeugen und Expertenrat.",
+  "heroParagraph2": "Schließe dich tausenden erfolgreichen Händlern an, die unsere Plattform bereits nutzen.",
+  "heroButton": "JETZT STARTEN",
+
+  "aboutTitle": "ÜBER UNS",
+  "aboutParagraph1": "Wir sind eine Plattform, die professionelle Handelswerkzeuge mit Expertenwissen kombiniert, um dir einen Vorteil am Markt zu verschaffen.",
+  "aboutParagraph2": "Unsere innovative Plattform bietet leistungsstarke Werkzeuge für erfahrene Händler und Einsteiger.",
+  "aboutButton": "Eröffne dein Gewinnerkonto",
+
+  "featuresTitle": "FUNKTIONEN",
+  "features": {
+    "analyse": {
+      "title": "ANALYSIEREN",
+      "text": "Nutze fortschrittliche Analysen für klügere Handelsentscheidungen."
+    },
+    "security": {
+      "title": "SICHERHEIT",
+      "text": "Vertraue auf modernste Sicherheitsprotokolle."
+    },
+    "support": {
+      "title": "SUPPORT",
+      "text": "Kontaktiere uns rund um die Uhr für Expertenhilfe."
+    },
+    "community": {
+      "title": "COMMUNITY",
+      "text": "Tritt einer Community von Händlern bei."
+    }
+  },
+
+  "guide": {
+    "title": "EINS-ZU-EINS HANDELSLEITFADEN",
+    "card1": {
+      "line1": "Buchen.",
+      "line2": "Kostenlose",
+      "line3": "Sitzung."
+    },
+    "card2": {
+      "line1": "Personalisierte",
+      "line2": "Beratung."
+    },
+    "card3": {
+      "line1": "Entwickle",
+      "line2": "Kostenlose",
+      "line3": "Strategie."
+    },
+    "card4": {
+      "line1": "Umsetzen und",
+      "line2": "Erfolgreich sein."
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2024 ELITE TRADING.",
+    "rights": "ALLE RECHTE VORBEHALTEN."
+  },
+
+  "giftSection": {
+    "title": "BESONDERES GESCHENK",
+    "paragraph": "Fordere deinen kostenlosen Trading-Strategie-Guide an!",
+    "button": "JETZT HERUNTERLADEN"
+  },
+
+  "modal": {
+    "title": "Warte – Verpasse nicht diese Chance!",
+    "text": "Handle jetzt, um dir deinen exklusiven <strong>100 % Bonus</strong> zu sichern und dein Handelspotenzial freizusetzen.",
+    "cta": "Bonus sichern"
+  },
+
+  "formModal": {
+    "title": "Tritt der Elite bei – Eröffne jetzt dein Konto",
+    "subtitle": "Fülle deine Daten aus und mache den ersten Schritt zur Marktbeherrschung.",
+    "name": "Dein Name",
+    "email": "Deine E-Mail",
+    "phone": "Deine Telefonnummer",
+    "country": "Dein Land",
+    "submit": "Absenden & Dominieren"
+  },
+
+  "nav": {
+    "logo": "Elite Broker: Entfessle deine Trading-Power!",
+    "toggleMenu": "Menü umschalten",
+    "marketNews": "Marktnachrichten",
+    "features": "Funktionen",
+    "guide": "Individuelle Trading-Anleitung",
+    "aboutUs": "Über uns",
+    "ourChamps": "Erfolgsgeschichten",
+    "gift": "Besonderes Geschenk",
+    "contactUs": "Kontakt"
+  },
+
+  "marketNews": {
+    "title": "MARKTNACHRICHTEN",
+    "item1": {
+      "headline": "Globale Aktien steigen vor US-Inflationsdaten",
+      "time": "VOR 16 STD",
+      "button": "Zur Story"
+    },
+    "item2": {
+      "headline": "Euro fällt – EZB signalisiert Zinspause",
+      "time": "VOR 16 STD",
+      "button": "Jetzt lesen"
+    },
+    "item3": {
+      "headline": "Bitcoin erreicht 60.000 $ durch neue Investoreninteresse",
+      "time": "VOR 16 STD",
+      "button": "Mehr erfahren"
+    }
+  },
+
+  "offer": {
+    "highlight": "Zeitlich begrenztes Power-Angebot:",
+    "title": "MACGU-IN IN 24 EINFACHEN SCHRITTEN ENDET IN",
+    "expired": "Angebot abgelaufen"
+  },
+
+  "testimonials": {
+    "title": "HÖREN SIE VON UNSEREN CHAMPIONS",
+    "0": {
+      "quote": "Die fortschrittlichen Tools haben mein Trading revolutioniert. Sehr empfehlenswert.",
+      "name": "Olivia M.",
+      "role": "Professionelle Händlerin"
+    },
+    "1": {
+      "quote": "Hervorragende Expertenberatung, genau auf meine Bedürfnisse abgestimmt!",
+      "name": "David R.",
+      "role": "Privatanleger"
+    },
+    "2": {
+      "quote": "Die Unterstützung der Community ist unvergleichlich. Ich fühle mich gestärkt!",
+      "name": "Julia S.",
+      "role": "Trading-Enthusiastin"
+    }
+  }
+
 }

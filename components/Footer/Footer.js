@@ -1,10 +1,29 @@
+'use client'
+
 import styles from "./Footer.module.css"
+import {useTranslation} from "react-i18next";
+import {useEffect, useState} from "react";
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    if (i18n.isInitialized) {
+      setIsReady(true);
+    } else {
+      i18n.on('initialized', () => {
+        setIsReady(true);
+      });
+    }
+  }, [i18n]);
+
+  if (!isReady) return null;
+
   return (
     <footer id="contactUs"  className={`${styles.section} ${styles.footer}`}>
-      <p>© 2024 ELITE TRADING.</p>
-      <p>ALLE RECHTE VORBEHALTEN.</p>
+      <p>{t('footer.copyright')}</p>
+      <p>{t('footer.rights')}</p>
       <div className={styles["social-icons"]}>
         <span>
           <svg fill="#777777" height="40px" viewBox="0 0 32 32" >

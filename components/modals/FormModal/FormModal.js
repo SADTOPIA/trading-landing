@@ -1,6 +1,9 @@
 import styles from './FormModal.module.css';
+import { useTranslation } from "react-i18next";
 
 export default function FormModal({ isOpen, onClose }) {
+  const { t } = useTranslation();
+
   if (!isOpen) return null;
 
   const handleSubmit = (e) => {
@@ -12,16 +15,14 @@ export default function FormModal({ isOpen, onClose }) {
     <div className={styles.overlay}>
       <div className={styles.modal}>
         <span className={styles.close} onClick={onClose}>×</span>
-        <h2 className={styles.title}>Join the Elite – Open Your Account Now</h2>
-        <p className={styles.subtitle}>
-          Fill in your details and take the first step to market domination.
-        </p>
+        <h2 className={styles.title}>{t('formModal.title')}</h2>
+        <p className={styles.subtitle}>{t('formModal.subtitle')}</p>
         <form className={styles.form} onSubmit={handleSubmit}>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <input type="tel" placeholder="Your Phone Number" required />
-          <input type="text" placeholder="Your Country" required />
-          <button type="submit">Submit & Dominate</button>
+          <input type="text" placeholder={t('formModal.name')} required />
+          <input type="email" placeholder={t('formModal.email')} required />
+          <input type="tel" placeholder={t('formModal.phone')} required />
+          <input type="text" placeholder={t('formModal.country')} required />
+          <button type="submit">{t('formModal.submit')}</button>
         </form>
       </div>
     </div>

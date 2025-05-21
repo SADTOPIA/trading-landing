@@ -1,5 +1,137 @@
 {
   "heroTitle": "MASTER THE MARKET WITH ELITE TRADING POWER",
   "heroParagraph1": "Unleash your potential with our unmatched tools and expert advice",
-  "heroButton": "START NOW"
+  "heroParagraph2": "Join thousands of successful traders already using our platform.",
+  "heroButton": "START NOW",
+
+  "aboutTitle": "ABOUT US",
+  "aboutParagraph1": "We are a platform that combines professional trading tools with expert knowledge to give you an edge in the market.",
+  "aboutParagraph2": "Our innovative platform is designed to provide powerful tools for both experienced traders and beginners.",
+  "aboutButton": "Open Your Winning Account",
+
+  "featuresTitle": "FEATURES",
+  "features": {
+    "analyse": {
+      "title": "ANALYZE",
+      "text": "Use advanced analytics for smarter trading decisions."
+    },
+    "security": {
+      "title": "SECURITY",
+      "text": "Rely on state-of-the-art security protocols."
+    },
+    "support": {
+      "title": "SUPPORT",
+      "text": "Contact us 24/7 for expert help."
+    },
+    "community": {
+      "title": "COMMUNITY",
+      "text": "Join a community of traders."
+    }
+  },
+
+  "guide": {
+    "title": "ONE-ON-ONE TRADING GUIDE",
+    "card1": {
+      "line1": "Book.",
+      "line2": "Free",
+      "line3": "Session."
+    },
+    "card2": {
+      "line1": "Personalized",
+      "line2": "Consultation."
+    },
+    "card3": {
+      "line1": "Develop",
+      "line2": "Free",
+      "line3": "Strategy."
+    },
+    "card4": {
+      "line1": "Execute and ",
+      "line2": "Succeed."
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2024 ELITE TRADING.",
+    "rights": "ALL RIGHTS RESERVED."
+  },
+
+  "giftSection": {
+    "title": "SPECIAL GIFT",
+    "paragraph": "Request your free trading strategy guide!",
+    "button": "DOWNLOAD NOW"
+  },
+
+  "modal": {
+    "title": "Wait – Don't Miss This Opportunity!",
+    "text": "Act now to claim your exclusive <strong>100% bonus</strong> and unleash your trading potential.",
+    "cta": "Claim Your Bonus"
+  },
+
+  "formModal": {
+    "title": "Join the Elite – Open Your Account Now",
+    "subtitle": "Fill in your details and take the first step to market domination.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone Number",
+    "country": "Your Country",
+    "submit": "Submit & Dominate"
+  },
+
+  "nav": {
+    "logo": "Elite Broker: Unleash Your Trading Power!",
+    "toggleMenu": "Toggle menu",
+    "marketNews": "Market News",
+    "features": "Features",
+    "guide": "One-On-One Trading Guide",
+    "aboutUs": "About Us",
+    "ourChamps": "Hear From Our Champs",
+    "gift": "Special Gift",
+    "contactUs": "Contact Us"
+  },
+
+  "marketNews": {
+    "title": "MARKET NEWS",
+    "item1": {
+      "headline": "Global Stocks Edge Higher Ahead of US CPI Data",
+      "time": "16 HRS AGO",
+      "button": "Get the Scoop"
+    },
+    "item2": {
+      "headline": "Euro Falls as ECB Signals Pause in Rate Hikes",
+      "time": "16 HRS AGO",
+      "button": "Dive In"
+    },
+    "item3": {
+      "headline": "Bitcoin Hits $60K Amid Renewed Investor Interest",
+      "time": "16 HRS AGO",
+      "button": "Learn the Secrets"
+    }
+  },
+
+  "offer": {
+    "highlight": "Limited-Time Power Offer:",
+    "title": "MACGU-IN IN 24 EASY ENDS IN",
+    "expired": "Offer expired"
+  },
+
+  "testimonials": {
+    "title": "HEAR FROM OUR CHAMPIONS",
+    "0": {
+      "quote": "The advanced tools transformed my trading. Highly recommended.",
+      "name": "Olivia M.",
+      "role": "Professional Trader"
+    },
+    "1": {
+      "quote": "Outstanding expert guidance tailored to my needs. A game-changer!",
+      "name": "David R.",
+      "role": "Individual Investor"
+    },
+    "2": {
+      "quote": "The community support is unparalleled. I feel empowered!",
+      "name": "Julia S.",
+      "role": "Trading Enthusiast"
+    }
+  }
+
 }
