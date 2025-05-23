@@ -1,8 +1,10 @@
 'use client';
 
 import styles from "./AboutSection.module.css";
+
 import { useTranslation } from 'react-i18next';
 import {useEffect, useState} from "react";
+import StartButton from '@/components/ui/StartFormButton/StartFormButton';
 
 export default function AboutSection({ onStartClick }) {
   const { t, i18n } = useTranslation();
@@ -27,9 +29,7 @@ export default function AboutSection({ onStartClick }) {
         <p>{t('aboutParagraph1')}</p>
         <p>{t('aboutParagraph2')}</p>
       </div>
-      <button className={styles.button} onClick={onStartClick}>
-        {t('aboutButton')}
-      </button>
+      <StartButton onClick={onStartClick} labelKey="aboutButton" className={styles.button} />
     </section>
   );
 }

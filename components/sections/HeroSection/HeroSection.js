@@ -3,6 +3,7 @@
 import styles from './HeroSection.module.css';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
+import StartButton from '@/components/ui/StartFormButton/StartFormButton';
 
 export default function HeroSection({ onStartClick }) {
   const { t, i18n } = useTranslation();
@@ -25,9 +26,7 @@ export default function HeroSection({ onStartClick }) {
       <div className={styles.content}>
         <h1 className={styles.heading}>{t('heroTitle')}</h1>
         <p className={styles.paragraph}>{t('heroParagraph1')}</p>
-        <button className={styles.button} onClick={onStartClick}>
-          {t('heroButton')}
-        </button>
+        <StartButton onClick={onStartClick} labelKey="heroButton" className={styles.button} />
       </div>
     </header>
   );

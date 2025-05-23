@@ -2,7 +2,7 @@
     padding-top: 60px;
     position: relative;
     height: 680px;
-    background: url('/broker.jpg') no-repeat;
+    background: url('/images/broker.jpg') no-repeat;
     background-size: cover;
     color: white;
     box-sizing: border-box;
@@ -51,7 +51,7 @@
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        background: url('/M-Broker.jpg') no-repeat;
+        background: url('/images/M-Broker.jpg') no-repeat;
         height: 450px;
         background-size: cover;
         text-align: center;

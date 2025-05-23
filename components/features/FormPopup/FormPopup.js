@@ -1,7 +1,7 @@
-import styles from './FormModal.module.css';
+import styles from './FormPopup.module.css';
 import { useTranslation } from "react-i18next";
 
-export default function FormModal({ isOpen, onClose }) {
+export default function FormPopup({ isOpen, onClose }) {
   const { t } = useTranslation();
 
   if (!isOpen) return null;
