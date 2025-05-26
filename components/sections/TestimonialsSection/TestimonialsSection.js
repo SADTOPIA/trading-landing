@@ -7,19 +7,19 @@ export default function TestimonialsSection() {
 
   const testimonials = [
     {
-      img: '/photo_2021-07-27_14-57-11.jpg',
+      img: '/images/photo_2021-07-27_14-57-11.jpg',
       quote: t('testimonials.0.quote'),
       name: t('testimonials.0.name'),
       role: t('testimonials.0.role'),
     },
     {
-      img: '/photo_2021-07-27_14-57-11.jpg',
+      img: '/images/photo_2021-07-27_14-57-11.jpg',
       quote: t('testimonials.1.quote'),
       name: t('testimonials.1.name'),
       role: t('testimonials.1.role'),
     },
     {
-      img: '/photo_2021-07-27_14-57-11.jpg',
+      img: '/images/photo_2021-07-27_14-57-11.jpg',
       quote: t('testimonials.2.quote'),
       name: t('testimonials.2.name'),
       role: t('testimonials.2.role'),
