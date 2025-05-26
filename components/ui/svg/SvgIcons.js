@@ -109,7 +109,7 @@ export function EnglishFlagIcon() {
         <path d="M28 0H0V20H28V0Z" fill="url(#paint0)" />
         <path fillRule="evenodd" clipRule="evenodd" d="M0 0H28V1.33333H0V0ZM0 2.66667H28V4H0V2.66667ZM0 5.33333H28V6.66667H0V5.33333ZM0 8H28V9.33333H0V8ZM0 10.6667H28V12H0V10.6667ZM0 13.3333H28V14.6667H0V13.3333ZM0 16H28V17.3333H0V16ZM0 18.6667H28V20H0V18.6667Z" fill="url(#paint1)" />
         <path d="M12 0H0V9.33333H12V0Z" fill="url(#paint2)" />
-        <path fillRule="evenodd" clipRule="evenodd" d="M...Z" fill="url(#paint3)" />
+        <path fillRule="evenodd" clipRule="evenodd" fill="url(#paint3)" />
       </g>
       <defs>
         <linearGradient id="paint0" x1="14" y1="0" x2="14" y2="20" gradientUnits="userSpaceOnUse">

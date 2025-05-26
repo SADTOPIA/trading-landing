@@ -1,6 +1,8 @@
 "use client";
 
-import NavBar from "@/components/ui/NavBar/NavBar";
+import PromoPopup from "@/components/features/PromoPopup/PromoPopup";
+import FormPopup from "@/components/features/FormPopup/FormPopup";
+import useAdPopup from "@/hooks/useAdPopup";
 import HeroSection from "@/components/sections/HeroSection/HeroSection";
 import OfferSection from "@/components/sections/OfferSection/OfferSection";
 import FeaturesSection from "@/components/sections/FeaturesSection/FeaturesSection";
@@ -9,9 +11,7 @@ import AboutSection from "@/components/sections/AboutSection/AboutSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection/TestimonialsSection";
 import GiftSection from "@/components/sections/GiftSection/GiftSection";
 import Footer from "@/components/sections/Footer/Footer";
-import PromoPopup from "@/components/features/PromoPopup/PromoPopup";
-import FormPopup from "@/components/features/FormPopup/FormPopup";
-import useAdPopup from "@/hooks/useAdPopup";
+import NavBar from "@/components/ui/NavBar/NavBar";
 
 export default function HomePage() {
   const {

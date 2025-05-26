@@ -1,22 +1,8 @@
 import styles from "./MarketNews.module.css";
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
 
 export default function MarketNews() {
-  const { t, i18n } = useTranslation();
-  const [isReady, setIsReady] = useState(false);
-
-  useEffect(() => {
-    if (i18n.isInitialized) {
-      setIsReady(true);
-    } else {
-      const onInit = () => setIsReady(true);
-      i18n.on("initialized", onInit);
-      return () => i18n.off("initialized", onInit);
-    }
-  }, [i18n]);
-
-  if (!isReady) return null;
+  const { t } = useTranslation();
 
   const newsItems = [
     "marketNews.item1",

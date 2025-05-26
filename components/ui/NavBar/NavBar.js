@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './NavBar.module.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
 import {
@@ -10,6 +10,7 @@ import {
   ItalianoFlagIcon,
   PolskiFlagIcon,
 } from '@/components/ui/svg/SvgIcons';
+import BurgerButton from './BurgerButton';
 
 const navLinks = [
   { id: 'marketNews', label: 'nav.marketNews' },
@@ -30,20 +31,7 @@ const languages = [
 
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isReady, setIsReady] = useState(false);
   const { t, i18n } = useTranslation();
-
-  useEffect(() => {
-    if (i18n.isInitialized) {
-      setIsReady(true);
-    } else {
-      i18n.on('initialized', () => {
-        setIsReady(true);
-      });
-    }
-  }, [i18n]);
-
-  if (!isReady) return null;
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -53,15 +41,11 @@ export default function NavBar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>{t('nav.logo')}</div>
-
-        <button
+        <BurgerButton
+          isOpen={menuOpen}
+          onToggle={() => setMenuOpen(!menuOpen)}
           className={styles.burger}
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          aria-expanded={menuOpen}
-        >
-          ☰
-        </button>
+        />
 
         <div className={`${styles.content} ${menuOpen ? styles.show : ''}`}>
           <ul className={styles.menu}>
@@ -84,5 +68,3 @@ export default function NavBar() {
     </nav>
   );
 }
-
-

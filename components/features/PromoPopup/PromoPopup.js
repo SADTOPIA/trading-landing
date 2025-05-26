@@ -1,4 +1,3 @@
-'use client';
 import styles from './PromoPopup.module.css';
 import { useTranslation, Trans } from 'react-i18next';
 

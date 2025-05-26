@@ -26,7 +26,7 @@ export default function useAdPopup(delay = 5000) {
   }, [startAdTimer, cancelAdTimer]);
 
   const openForm = () => {
-    cancelAdTimer();         // ← Очистка таймера при любом открытии формы
+    cancelAdTimer();
     setShowAd(false);
     setShowForm(true);
   };

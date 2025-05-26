@@ -1,5 +1,3 @@
-'use client';
-
 import styles from './GuideSection.module.css';
 
 export default function GuideCard({ icon, lines, className, t }) {

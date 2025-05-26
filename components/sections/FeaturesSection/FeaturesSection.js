@@ -1,8 +1,5 @@
-'use client';
-
 import styles from './FeaturesSection.module.css';
 import { useTranslation } from 'react-i18next';
-import {useEffect, useState} from "react";
 import {AnalyseIcon, SecurityIcon, SupportIcon, CommunityIcon,} from '@/components/ui/svg/SvgIcons';
 
 const features = [
@@ -25,20 +22,7 @@ const features = [
 ];
 
 export default function FeaturesSection() {
-  const { t, i18n } = useTranslation();
-  const [isReady, setIsReady] = useState(false);
-
-  useEffect(() => {
-    if (i18n.isInitialized) {
-      setIsReady(true);
-    } else {
-      i18n.on('initialized', () => {
-        setIsReady(true);
-      });
-    }
-  }, [i18n]);
-
-  if (!isReady) return null;
+  const { t } = useTranslation();
 
   return (
     <section id="features" className={styles.section}>
