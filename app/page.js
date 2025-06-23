@@ -34,7 +34,7 @@ export default function HomePage() {
       <GiftSection onStartClick={openForm} />
       <Footer />
 
-      <PromoPopup isOpen={showAd} onClose={closeAd} onClaim={openForm} />
+      {/*<PromoPopup isOpen={showAd} onClose={closeAd} onClaim={openForm} />*/}
       <FormPopup isOpen={showForm} onClose={closeForm} />
     </>
   );
