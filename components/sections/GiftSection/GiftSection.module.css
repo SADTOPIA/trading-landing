@@ -1,6 +1,6 @@
 .section {
     text-align: center;
-    height: 570px;
+    height: 880px;
     background: url('/images/elite-book.jpg') no-repeat center;
     background-size: cover;
 }
@@ -37,28 +37,28 @@
 
 @media (max-width: 768px) {
     .section {
-        padding: 40px 20px;
         text-align: center;
-        height: 450px;
+        height: 250px;
         background: url('/images/book.jpg') no-repeat center;
         background-size: cover;
     }
 
     .content {
         padding: 25px;
-        max-width: 200px;
+        max-width: 50%;
         margin: 0 0 auto;
         text-align: left;
         flex: 1;
     }
 
     .heading {
-        font-size: 2.5em;
+        font-size: 2em;
+        margin: 0;
         color: #FFD700;
     }
 
     .paragraph {
-        font-size: 1.2em;
+        font-size: 0.8em;
         color: #B9BBB6;
         margin-bottom: 24px;
     }
@@ -68,7 +68,7 @@
         color: #000;
         border: none;
         border-radius: 8px;
-        font-size: 15px;
+        font-size: 10px;
         font-family: sans-serif;
         font-weight: bold;
     }

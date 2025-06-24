@@ -48,9 +48,10 @@
 @media (max-width: 768px) {
     .title {
         color: #facc15;
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: normal;
-        margin-bottom: 40px;
+        margin: 40px auto;
+        width: 70%;
     }
 
     .paragraph {

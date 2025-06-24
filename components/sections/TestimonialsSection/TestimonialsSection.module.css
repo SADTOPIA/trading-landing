@@ -65,7 +65,9 @@
 
 @media (max-width: 768px) {
     .title{
-        font-size: 2.5em;
+        font-size: 2em;
+        margin: 40px auto;
+        width: 70%;
         color: #FFD700;
         font-weight: normal;
         font-family: sans-serif;
