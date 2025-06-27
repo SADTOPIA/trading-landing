@@ -1,0 +1,45 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #0d0c04;
+    border: 1px solid #facc15;
+    border-radius: 6px;
+    padding: 6px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 100;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color: #facc15;
+}
+
+.option:hover {
+    background-color: #CCCC99;
+}
+
+

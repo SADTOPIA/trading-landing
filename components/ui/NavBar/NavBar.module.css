@@ -9,7 +9,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .menu {
@@ -27,6 +28,7 @@
     gap: 20px;
     list-style: none;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 .menu li a {
@@ -69,6 +71,17 @@
     border: none;
     cursor: pointer;
 }
+.linkButton {
+    background: none;
+    border: none;
+    color: #FFD700;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 0;
+    text-decoration: none;
+}
+
 
 @media (max-width: 768px) {
 

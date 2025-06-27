@@ -24,7 +24,7 @@ export default function HomePage() {
 
   return (
     <>
-      <NavBar />
+      <NavBar onContactClick={openForm} />
       <HeroSection onStartClick={openForm} />
       <OfferSection />
       <FeaturesSection />
